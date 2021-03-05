@@ -1,0 +1,46 @@
+
+POST : https://api.paymentsos.com/payments
+________________________________________________________
+
+{
+  "amount": 4500,
+  "currency": "USD"
+}
+________________________________________________________
+Answer:
+
+{
+    "id": "fe8584f7-f0a3-419d-9700-c42f8a17a854",
+    "currency": "USD",
+    "created": "1614914573354",
+    "modified": "1614914573354",
+    "is_chargedback": false,
+    "status": "Initialized",
+    "possible_next_actions": [
+        {
+            "action": "Credit",
+            "href": "https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/credits"
+        },
+        {
+            "action": "Charge",
+            "href": "https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/charges"
+        },
+        {
+            "action": "Authorization",
+            "href": "https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/authorizations"
+        },
+        {
+            "action": "Update Payment",
+            "href": "https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854"
+        },
+        {
+            "action": "Authentication",
+            "href": "https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/authentications"
+        },
+        {
+            "action": "Risk analysis",
+            "href": "https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/risk-analyses"
+        }
+    ],
+    "amount": 4500
+}

@@ -1,0 +1,29 @@
+
+POST : https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/authorizations
+
+________________________________________________________
+
+{
+  "installments": {
+    "number_of_installments": 3
+  },
+  "payment_method": {
+    "credit_card_cvv": "123",
+    "token": "0135cf6e-c34f-4a4d-9fc4-cd03d81867e8",
+    "type": "tokenized"
+  },
+      "device_fingerprint": {
+        "fingerprint": "35",
+        "provider": "PayULatam"
+      },
+  "reconciliation_id": "40762342"
+}
+________________________________________________________
+
+Answer:
+
+{
+    "more_info": "PayU accountId should be an integer. Please refer to the provider configuration",
+    "category": "provider_request_error",
+    "description": "The request sent to the provider is invalid."
+}

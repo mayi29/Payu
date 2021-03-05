@@ -1,0 +1,17 @@
+
+POST :https://api.paymentsos.com/payments/fe8584f7-f0a3-419d-9700-c42f8a17a854/refunds
+
+________________________________________________________
+
+{
+  "amount": 4500
+}
+________________________________________________________
+
+Answer:
+
+{
+    "more_info": "Please check the current state of the payment.",
+    "category": "api_request_error",
+    "description": "There was conflict with payment resource current state."
+}

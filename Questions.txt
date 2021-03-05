@@ -1,0 +1,16 @@
+Technical questions: 
+-- Token: It is a process that protects the data of a credit card, capturing the data and converting it into a token.
+- Payment: It makes a single reference to all the transactions that make up a field such as authorize
+,capture, etc
+-Tokenization: Process to safeguard credit card data , converting it’s details in the token representation.
+-Authorize: Representa y mantiene los fondos de la cuenta de un cliente.
+-Capture: Complete the transaction with the bank once it has been authorized.
+-Charge:It is a transfer that is made in a single step from the client's account.
+-Void: This cancels the operation as long as it has not finished
+-Refund: Cancel a money transfer and return the amount to the customer's account.
+
+Experience:
+
+During this test I had different challenges that allowed me to learn but also want to know more about the subject, document myself and know a little more about the language used when creating a payment gateway.
+It was an enriching experience where I hope to continue learning in order to have solid knowledge.
+I have worked with services for different companies but always focused on artificial intelligence, I find it very interesting to gain experience in services focused on transactions. I feel that this is a market that is constantly growing and has a lot to work on.

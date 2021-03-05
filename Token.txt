@@ -1,0 +1,32 @@
+
+POST : https://api.paymentsos.com/tokens
+________________________________________________________
+
+{
+  "token_type": "credit_card",
+  "credit_card_cvv": "123",
+  "card_number": "4111111111111111",
+  "holder_name": "John Doe",
+  "expiration_date": "10/29"
+}
+________________________________________________________
+Answer:
+
+{
+    "token": "1ff28a8b-b6d5-4d59-b6be-a61023f5ceb0",
+    "created": "1614914530190",
+    "pass_luhn_validation": true,
+    "token_type": "credit_card",
+    "type": "tokenized",
+    "state": "created",
+    "bin_number": "411111",
+    "vendor": "VISA",
+    "card_type": "CREDIT",
+    "issuer": "JPMORGAN CHASE BANK, N.A.",
+    "level": "",
+    "country_code": "USA",
+    "holder_name": "John Doe",
+    "expiration_date": "10/2029",
+    "last_4_digits": "1111",
+    "encrypted_cvv": "MjdkNGZhZTMtYTA2Zi00YTg5LWJlMjMtNjQzMzVjYzI3MTg4Y3Z2X2RlbGltaXRlcnZhdWx0OnY0OnRxM2FoeG1jZGp0VFRzRTh2OGJpc0s1TFFkb1NlT0prbnZtS29GRmtqSWdLT1pITGVFMWpzeFZpRnZoY0FaZUQrMGVoVUxwUXoxc3l2clUxdzFFd1crbVQvY0EzVm9BeGgwLzJKVFFT"
+}
